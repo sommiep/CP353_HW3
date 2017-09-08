@@ -5,9 +5,9 @@ function search() {
 
 	var text = document.getElementById('text').value;
 	if (document.getElementById('name').checked) {
-		var url = `https://api.punkapi.com/v2/beers/?beer_name=` + text;
+		var url = 'https://api.punkapi.com/v2/beers/?beer_name=' + text;
 	} else {
-		var url = `https://api.punkapi.com/v2/beers/?food=` + text;
+		var url = 'https://api.punkapi.com/v2/beers/?food=' + text;
 	}
 	fetch(url).then(function (r) {
 		return r.json();
