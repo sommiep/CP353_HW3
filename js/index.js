@@ -21,7 +21,7 @@ function search() {
 			var img = document.createElement('img');
 			img.setAttribute('src', data[i].image_url);
 			img.setAttribute('height', '160px');
-			img.setAttribute('width', '40px');
+			img.setAttribute('width', '60px');
 			img.setAttribute('style', 'float:left');
 
 			var name = document.createElement('h4');
