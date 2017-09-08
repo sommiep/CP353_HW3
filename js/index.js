@@ -22,7 +22,7 @@ function search() {
 			img.setAttribute('src', data[i].image_url);
 			img.setAttribute('height', '300px');
 			img.setAttribute('width', '160px');
-			img.setAttribute('style', 'float:left');
+			img.setAttribute('style', 'float:center');
 
 			var name = document.createElement('h4');
 			var beerName = document.createTextNode('Name : ' + data[i].name);
